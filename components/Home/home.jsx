@@ -17,17 +17,22 @@ function home() {
             </div> 
         </section>
         {/* Section number Two */}
-        <section>
-
+        <section className='sectionTwo'>
+            <h1 className='number'>15</h1>
+            <h3 className='grados'>C</h3>
         </section>
         <section>
-
+            <h3 className="details">Shower</h3>
         </section>
         <section>
-
+            <p>Day</p>
+            <p>DATE</p>
         </section>
         <section>
-
+            <div>
+                <img src="/geo.svg" alt="imagen" />
+            </div>
+            <p>Ubicacion</p>
         </section>
         <section>
 
