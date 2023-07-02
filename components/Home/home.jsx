@@ -12,23 +12,24 @@ function home() {
                     <img src="./location.svg" alt="Location" />
                 </div>
             </div>
-            <div className='imagen'>
-                <img src="Shower.png" alt="weather image" />
+            <div className='mainImage'>
+                <img src="Shower.png" alt="weather image" className='firstImagen'/>
             </div> 
         </section>
         {/* Section number Two */}
         <section className='sectionTwo'>
             <h1 className='number'>15</h1>
-            <h3 className='grados'>C</h3>
+            <h3 className='grados'>C</h3> 
         </section>
-        <section>
+        <section className='sectionThree'>
             <h3 className="details">Shower</h3>
         </section>
-        <section>
-            <p>Day</p>
-            <p>DATE</p>
+        <section className='sectionFour'>
+            <p className='day'>Day</p>
+            <p style={ { margin: "0 0 10px 0 "}}>.</p>
+            <p className='date'>DATE</p>
         </section>
-        <section>
+        <section className='sectionFive'>
             <div>
                 <img src="/geo.svg" alt="imagen" />
             </div>

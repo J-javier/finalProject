@@ -1,5 +1,3 @@
-
-
 .sectionOne{
     height: 270px;
     background-image: linear-gradient(rgba(30,33,58,0.9), rgba(30,33,58,0.9)),url("../../public/Cloud-background.png") ;
@@ -13,7 +11,7 @@
     flex: row;
     justify-content: space-between;
     background: transparent;
-}
+} 
 
 .button{
     color: #E7E7EB;
@@ -40,19 +38,72 @@
 
 /* Main image weather  */
 
-.imagen{
+.mainImage{
    /*  width: 110px;
     height: 120px; */
     width: 150px;
     height: 174px;
     margin: 20px auto;
     background: transparent;
-
 }
 
-.imagen img{
+.firstImagen{
     width: 100%;
     height: 100%;
     object-fit: fill;
     background: transparent;
+}
+
+.sectionTwo{ 
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.number{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.grados{
+    font-size: 21px;
+    font-weight: 300;
+    margin-top: 1.5rem;
+}
+
+.sectionThree{
+    display: flex;
+    justify-content: center;
+    color: #A09FB1;
+}
+
+.details{
+    
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.sectionFour{
+    display: flex;
+    justify-content: center;
+    color: #A09FB1;
+}
+
+.day{
+   
+    font-weight: 500;
+    font-size: 18px;
+    color: #88869D;
+}
+
+.date{
+    color: #88869D; 
+   
+}
+
+.sectionFive{
+    display: flex;
+    justify-content: center;
+    color: #A09FB1;
+    margin-top: 1rem;
 }
