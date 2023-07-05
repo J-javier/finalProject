@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,600;0,700;1,400;1,600&display=swap');
+
 .contenerdorPrincipal{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 
 .subTitle{
     font-size: 11px;
@@ -118,4 +121,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media(min-width:770px){
+
 }

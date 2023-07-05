@@ -24,6 +24,8 @@ async function getdata(){
             <p>Tomorrow</p>
             <div className='imagen'><img src="./Clear.png" alt="picture"  className='imagenCard'/></div>
             <div className='details'>
+              <p>16 °C</p>
+              <p>11 °C</p>
                 {/* <p>{`${data.temp_max} °C`}</p>
                 <p>{`${data.temp_min} °C`} </p> */}
             </div>

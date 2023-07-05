@@ -3,8 +3,9 @@ import "./CardTwo.css"
 
 function CardTwo() {
   return (
-    <>
+    <> 
         <div className='contenerdorPrincipal'>
+            
             {/* First Section */}
             <section>
                 <p className='subTitle'>Wind Status</p>

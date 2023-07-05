@@ -16,4 +16,27 @@
         display: flex;
         flex-direction: row;
     }
+
+    .primero{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .segundo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .tercero{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
+
+.mainTitle{
+    font-size: 20px;
+}
+
+

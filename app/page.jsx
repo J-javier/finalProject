@@ -6,10 +6,16 @@ import CardTwo from '@/components/cardDetail/CardTwo'
 
 export default function Home() {
   return (
-    <>
+    <div className='primero'>
       <Main/> 
-      <Card/>
-      <CardTwo/>
-    </>
+        <div className='segundo'>
+          <Card/>
+          <h1 className='mainTitle'>Today's Highlights</h1>
+          <div className='tercero'>
+            <CardTwo/>
+          </div>
+        </div>
+      
+    </div>
   )
 }
