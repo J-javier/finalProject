@@ -5,7 +5,7 @@
     margin: 1.5px 1px;
     padding: 0;
     box-sizing: border-box;
-    background-color: #1E213A; 
+    background-color: #100E1D; 
     color: #E7E7EB;
     font-family: 'Raleway', sans-serif;
 }
@@ -19,13 +19,14 @@
 
     .primero{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
     
     .segundo{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        margin: 3rem 5rem;
     }
     
     .tercero{

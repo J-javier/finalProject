@@ -73,6 +73,11 @@
     align-items: center;
 }
 
+.pruebaa{
+    display: flex;
+    flex-direction: row;
+}
+
 .structure{
     width: 130px;
     height: 6px;
@@ -124,5 +129,25 @@
 }
 
 @media(min-width:770px){
+    .contenerdorPrincipal{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5rem;
+        margin: 0 5rem;
+    }
+
+    .subTitle{
+        font-size: 20px;
+        color: #A09FB1;
+        margin-top: 2rem;
+    }
+
+    .numero{
+        font-weight: 600;
+        font-size: 80px;
+    }
+
+
 
 }

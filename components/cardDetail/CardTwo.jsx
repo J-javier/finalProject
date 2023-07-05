@@ -7,7 +7,7 @@ function CardTwo() {
         <div className='contenerdorPrincipal'>
             
             {/* First Section */}
-            <section>
+            <section >
                 <p className='subTitle'>Wind Status</p>
                 <div className='medida'>
                     <h1 className='numero'>7</h1>
@@ -23,26 +23,27 @@ function CardTwo() {
             {/* Second Section */}
             <section className='secondSection'>
                 <p className='subTitle'>Humidity</p>
-                    <div>
-                        <h1 className='numero'>84%</h1>
-                    </div>    
-            </section>
-            {/* exception for the barra */}
-            <section>
-                <div>
-                    <div className='numerosdebarra'>
-                        <p>0</p>
-                        <p>50</p>
-                        <p>100</p>
-                    </div>
-                    <div className='structure'>
-                        <div className='colorbarra'> </div>
-                    </div>
-                    <div className='mainporcentaje'>
-                        <p className='porcentaje'>%</p>
-                    </div>  
+                <div className='pruebaa'>
+                    <h1 className='numero'>84</h1>
+                    <p className='tipoMedicion'>%</p>
                 </div>
+                <section>
+                    <div>
+                        <div className='numerosdebarra'>
+                            <p>0</p>
+                            <p>50</p>
+                            <p>100</p>
+                        </div>
+                        <div className='structure'>
+                            <div className='colorbarra'> </div>
+                        </div>
+                        <div className='mainporcentaje'>
+                            <p className='porcentaje'>%</p>
+                        </div>  
+                    </div>
+                </section>    
             </section>
+            
 
             {/* Third Section */}
             <section className='sectionTres'>

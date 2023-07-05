@@ -7,6 +7,11 @@
     background-image: linear-gradient(rgba(30, 33, 58, 0.9)), url('../../public/Cloud-background.png') ;
     background-repeat: no-repeat;
     background-size: 380px 280px;
+    background-color: #1E213A;
+}
+
+.mainContainer{
+    background-color: #1E213A;  
 }
 
 
@@ -64,35 +69,41 @@
     display: flex;
     justify-content: center;
     color: #fff;
+    background-color: transparent;
 }
 
 .number{
     font-size: 60px;
     font-weight: 500;
+    background-color: transparent;
 }
 
 .grados{
     font-size: 21px;
     font-weight: 300;
     margin-top: 1.5rem;
+    background-color: transparent;
 }
 
 .sectionThree{
     display: flex;
     justify-content: center;
     color: #A09FB1;
+    background-color: transparent;
 }
 
 .details{
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 1.5rem;
+    background-color: transparent;
 }
 
 .sectionFour{
     display: flex;
     justify-content: center;
     color: #A09FB1;
+    background-color: transparent;
 }
 
 .day{
@@ -100,12 +111,14 @@
     font-weight: 500;
     font-size: 18px;
     color: #88869D;
+    background-color: transparent;
 }
 
 .date{
     color: #88869D; 
     font-weight: 500;
     font-size: 18px;
+    background-color: transparent;
 }
 
 .sectionFive{
@@ -113,6 +126,15 @@
     justify-content: center;
     color: #A09FB1;
     margin-top: 1rem;
+    background-color: transparent;
+}
+
+.sectionFive p, div{
+    background-color: transparent;
+}
+
+.logoOne{
+    background-color: transparent;
 }
 
 
@@ -196,6 +218,7 @@
         color: #A09FB1;
         font-size: 20px;
         margin-top: 1.5rem;
+        background-color: transparent;
     }
 
 

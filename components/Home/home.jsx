@@ -31,7 +31,7 @@ function home() {
         </section>
         <section className='sectionFive'>
             <div>
-                <img src="/geo.svg" alt="imagen" />
+                <img src="/geo.svg" alt="imagen" className='logoOne'/>
             </div>
             <p>Ubicacion</p>
         </section>
