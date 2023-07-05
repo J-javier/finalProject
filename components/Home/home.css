@@ -4,7 +4,7 @@
 .sectionOne{
     height: 270px;
     /* background-image: linear-gradient(rgba(30,33,58,0.9), rgba(30,33,58,0.9)),url("../../public/Cloud-background.png") ; */
-    background-image: linear-gradient(rgba(63, 68, 112, 0.rgba(86, 92, 153, 0.9)0.9)),url("../../public/Cloud-background.png") ;
+    background-image: linear-gradient(rgba(30, 33, 58, 0.9)), url('../../public/Cloud-background.png') ;
     background-repeat: no-repeat;
     background-size: 380px 280px;
 }
@@ -84,7 +84,7 @@
 }
 
 .details{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     margin-bottom: 1.5rem;
 }
@@ -126,8 +126,7 @@
         display: flex;
         flex-direction: column;
         width: 459px;
-        height: 410px;
-        background-image: linear-gradient(rgba(30,33,58,0.9), rgba(30,33,58,0.9)),url("../../public/Cloud-background.png") ;
+        height: 410px; 
         background-repeat: no-repeat;
         background-size: 500px 350px;
     }
@@ -153,10 +152,10 @@
         background: transparent;
     }
     .sectionTwo{
-        margin: 0 auto;       
-        width: 192px;
+        display: flex;
+        justify-content: center;
+        width: 459px;
         height: 169px;
-        text-align: center;
     }
     .number{
         font-size: 140px;
@@ -169,14 +168,35 @@
         margin-top: 6rem;
     }
 
-    .sectionThree{
-        margin-top: 5rem;
+    .sectionThree >h1{
+        margin-top: 4rem;
         text-align: center;
+        font-size: 40px;
+        font-weight: 200;
     }
 
-    .details{
-        height: 50px;
-        font-size: 50px;
+    .sectionFour{
+        display: flex;
+        justify-content: center;
+        color: #A09FB1;
+        gap: 1rem;
+        margin-top: 4rem;
     }
+    
+    .day{
+        font-weight: 500;
+        font-size: 18px;
+        color: #88869D;
+    }
+    
+
+    .sectionFive{
+        display: flex;
+        justify-content: center;
+        color: #A09FB1;
+        font-size: 20px;
+        margin-top: 1.5rem;
+    }
+
 
 }

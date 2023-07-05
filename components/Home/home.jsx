@@ -22,7 +22,7 @@ function home() {
             <h3 className='grados'>°C</h3> 
         </section>
         <section className='sectionThree'>
-            <h3 className="details">Shower</h3>
+            <h1 className="details">Shower</h1>
         </section>
         <section className='sectionFour'>
             <p className='day'>Day</p>
