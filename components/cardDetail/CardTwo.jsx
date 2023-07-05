@@ -12,29 +12,39 @@ function CardTwo() {
                     <h1 className='numero'>7</h1>
                     <h3 className='tipoMedicion'>mph</h3>
                 </div>
-                <div>
-                    <div>
-                        <img src="./row.svg" alt="navegation" />
+                <div className='row'>
+                    <div className='rowNav'>
+                        <img src="./geogra.svg" alt="navegation" className='imagenRow' />
                     </div>
-                    <p className='tipoMedicion'>WSW</p>
+                    <p className='rowMed'>WSW</p>
                 </div>
             </section>
             {/* Second Section */}
-            <section>
+            <section className='secondSection'>
                 <p className='subTitle'>Humidity</p>
                     <div>
                         <h1 className='numero'>84%</h1>
-                        {/* <h3>mph</h3> */}
-                    </div>
-                    <div>
-                        <div>
-                            <div></div>
-                        </div>
-                        
                     </div>    
             </section>
-            {/* Third Section */}
+            {/* exception for the barra */}
             <section>
+                <div>
+                    <div className='numerosdebarra'>
+                        <p>0</p>
+                        <p>50</p>
+                        <p>100</p>
+                    </div>
+                    <div className='structure'>
+                        <div className='colorbarra'> </div>
+                    </div>
+                    <div className='mainporcentaje'>
+                        <p className='porcentaje'>%</p>
+                    </div>  
+                </div>
+            </section>
+
+            {/* Third Section */}
+            <section className='sectionTres'>
                 <p className='subTitle'>VISIBILITY</p>
                 <div className='medida'>
                     <h1 className='numero'>6,4</h1>
@@ -42,7 +52,7 @@ function CardTwo() {
                 </div>
             </section>
             {/* Four Section */}
-            <section>
+            <section className='sectionCuatro'>
                 <p className='subTitle'>Air Pressure</p>
                 <div className='medida'>
                     <h1 className='numero'>998</h1>

@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 133px;
-    height: 170px;
+    width: 165px;
+    height: 180px;
     border: 2px solid white;
     background-color: antiquewhite;
     margin: 5rem 1.5rem;
@@ -13,8 +13,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 130px;
-    height: 168px;
+    width: 165px;
+    height: 175px;
     line-height: 3rem;
 }
 .imagen{
@@ -41,5 +41,7 @@
 .details{
     display: flex;
     flex-direction: row;
-    gap: 1.5rem;
+    font-size: 13px;
+    gap: .5rem;
+   /*  gap: 1.5rem; */
 }

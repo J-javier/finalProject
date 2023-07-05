@@ -9,7 +9,7 @@ function home() {
             <div className='firstSection'>
                 <button className='button'>Search for places</button>
                 <div className='location'>
-                    <img src="./location.svg" alt="Location" />
+                    <img src="./location.svg" alt="Location" className='locationboton' />
                 </div>
             </div>
             <div className='mainImage'>
@@ -19,15 +19,15 @@ function home() {
         {/* Section number Two */}
         <section className='sectionTwo'>
             <h1 className='number'>15</h1>
-            <h3 className='grados'>C</h3> 
+            <h3 className='grados'>°C</h3> 
         </section>
         <section className='sectionThree'>
             <h3 className="details">Shower</h3>
         </section>
         <section className='sectionFour'>
             <p className='day'>Day</p>
-            <p style={ { margin: "0 0 10px 0 "}}>.</p>
-            <p className='date'>DATE</p>
+            
+            <p className='date'>Date </p>
         </section>
         <section className='sectionFive'>
             <div>

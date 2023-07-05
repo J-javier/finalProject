@@ -26,3 +26,96 @@
     display: flex;
     
 }
+
+/* FIRST SECTION */
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    
+}
+
+.rowNav{
+    width: 15px;
+    height: 15px;
+    border: 1px solid grey;
+    border-radius: 50px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.imagenRow{
+    object-fit: contain;
+    width: 10px;
+    height: 10px;
+    fill: #ffffff;
+    background-color: transparent;
+}
+
+.rowMed{
+    font-size: 10px;
+    font-weight: 200;
+
+}
+
+/* Section two */
+
+.secondSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.structure{
+    width: 130px;
+    height: 6px;
+    border: 1px solid grey;
+    background-color: grey;
+}
+
+.numerosdebarra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 7px;
+}
+
+.mainporcentaje{
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+    justify-content: flex-end;
+}
+
+.porcentaje{
+    font-size: 7px;
+    width: 5px;
+}
+
+
+.colorbarra{
+    width: 129px;
+    height: 5px;
+    background-color: yellow;
+}
+
+
+/* Section 3rd */
+
+.sectionTres{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionCuatro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

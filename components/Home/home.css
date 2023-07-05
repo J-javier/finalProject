@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,600;0,700;1,400;1,600&display=swap');
+
+
 .sectionOne{
     height: 270px;
-    background-image: linear-gradient(rgba(30,33,58,0.9), rgba(30,33,58,0.9)),url("../../public/Cloud-background.png") ;
+    /* background-image: linear-gradient(rgba(30,33,58,0.9), rgba(30,33,58,0.9)),url("../../public/Cloud-background.png") ; */
+    background-image: linear-gradient(rgba(63, 68, 112, 0.rgba(86, 92, 153, 0.9)0.9)),url("../../public/Cloud-background.png") ;
     background-repeat: no-repeat;
     background-size: 380px 280px;
 }
@@ -22,25 +26,27 @@
 
 /* Location logo right upper corner */
 .location{
-    /* background: transparent; */
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #88869D;
     width: 40px; 
     height: 40px ;
-    border: 2px solid black;
-    text-align: center;
+    border: 2px solid grey;
     border-radius: 50px;
+   
 }
 
-.location img{
+.locationboton{
     border-radius: 50px;
-    padding: 3px;
-    object-fit: contain;   
+    background: transparent; 
+    
 }
 
 /* Main image weather  */
 
 .mainImage{
-   /*  width: 110px;
-    height: 120px; */
     width: 150px;
     height: 174px;
     margin: 20px auto;
@@ -78,7 +84,7 @@
 }
 
 .details{
-    
+    font-size: 30px;
     font-weight: 600;
     margin-bottom: 1.5rem;
 }
@@ -98,7 +104,8 @@
 
 .date{
     color: #88869D; 
-   
+    font-weight: 500;
+    font-size: 18px;
 }
 
 .sectionFive{
@@ -106,4 +113,70 @@
     justify-content: center;
     color: #A09FB1;
     margin-top: 1rem;
+}
+
+
+@media (min-width:770px){
+    .mainContainer{
+        height: 1023px;
+        width: 459px;
+    }
+
+    .sectionOne{
+        display: flex;
+        flex-direction: column;
+        width: 459px;
+        height: 410px;
+        background-image: linear-gradient(rgba(30,33,58,0.9), rgba(30,33,58,0.9)),url("../../public/Cloud-background.png") ;
+        background-repeat: no-repeat;
+        background-size: 500px 350px;
+    }
+
+    .firstSection{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 1rem 1.5rem ;
+    }
+
+
+    .button{
+        color: #E7E7EB;
+        background-color:#6E707A;
+        width: 161px;
+        height: 40px;
+    }
+
+    .mainImage{
+        width: 202px;
+        height: 234px;
+        background: transparent;
+    }
+    .sectionTwo{
+        margin: 0 auto;       
+        width: 192px;
+        height: 169px;
+        text-align: center;
+    }
+    .number{
+        font-size: 140px;
+        font-weight: 500;
+    }
+    
+    .grados{
+        font-size: 50px;
+        font-weight: 100;
+        margin-top: 6rem;
+    }
+
+    .sectionThree{
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .details{
+        height: 50px;
+        font-size: 50px;
+    }
+
 }
