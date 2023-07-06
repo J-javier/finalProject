@@ -2,16 +2,19 @@
 
 
 .sectionOne{
-    height: 270px;
-    /* background-image: linear-gradient(rgba(30,33,58,0.9), rgba(30,33,58,0.9)),url("../../public/Cloud-background.png") ; */
-    background-image: linear-gradient(rgba(30, 33, 58, 0.9)), url('../../public/Cloud-background.png') ;
+    width: 376px;
+    height: 400px;
+    background-image: linear-gradient(rgba(30,33,58,0.9), rgba(30,33,58,0.9)),url("/Cloud-background.png") ;
+    /* background-image: url("/Cloud-background.png"); */
     background-repeat: no-repeat;
-    background-size: 380px 280px;
+    background-size: 550px 350px;
+    background-position: center;
     background-color: #1E213A;
 }
 
 .mainContainer{
     background-color: #1E213A;  
+    height: 810px ;
 }
 
 
@@ -20,6 +23,7 @@
     flex: row;
     justify-content: space-between;
     background: transparent;
+    padding: 1rem;
 } 
 
 .button{
@@ -54,7 +58,7 @@
 .mainImage{
     width: 150px;
     height: 174px;
-    margin: 20px auto;
+    margin: 40px auto;
     background: transparent;
 }
 
@@ -73,15 +77,15 @@
 }
 
 .number{
-    font-size: 60px;
+    font-size: 95px;
     font-weight: 500;
     background-color: transparent;
 }
 
 .grados{
-    font-size: 21px;
-    font-weight: 300;
-    margin-top: 1.5rem;
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 3.5rem;
     background-color: transparent;
 }
 
@@ -92,22 +96,25 @@
     background-color: transparent;
 }
 
-.details{
-    font-size: 40px;
-    font-weight: 600;
-    margin-bottom: 1.5rem;
+
+.sectionThree > h1{
+    font-size: 30px;
+    font-weight: 300;
     background-color: transparent;
+    margin: 1.5rem auto;
 }
+
 
 .sectionFour{
     display: flex;
     justify-content: center;
     color: #A09FB1;
     background-color: transparent;
+    margin: 1rem auto;
+    gap: 2rem;
 }
 
 .day{
-   
     font-weight: 500;
     font-size: 18px;
     color: #88869D;
@@ -121,11 +128,11 @@
     background-color: transparent;
 }
 
-.sectionFive{
+.sectionFive{ 
     display: flex;
     justify-content: center;
     color: #A09FB1;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
     background-color: transparent;
 }
 
