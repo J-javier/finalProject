@@ -45,13 +45,12 @@
         flex-direction: column;
         background-color: transparent;
         width: 30vw;
-        border: 1px solid white;
     }
 
     .Elsegundo{
         display: flex;
         flex-direction: column;
-        border: 1px solid white;
+
     }
 
     .mainTitle{

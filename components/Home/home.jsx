@@ -1,13 +1,23 @@
+"use client"
 import React from 'react'
 /* import "@/components/Home/home.css" */
 import "./home.css"
+import NavBar from '../NavBar/NavBar'
+import  {useState}  from 'react'
 
 function home() {
+  const [Bar, setBar]  = useState(false)
+  function ChangeBar(){
+    setBar()
+  }
+
+
   return ( 
     <div className='mainContainer'>
+            { Bar === false ? ( <> 
         <section className='sectionOne'>
             <div className='firstSection'>
-                <button className='button'>Search for places</button>
+                <button className='button' onClick={ChangeBar}>Search for places</button>
                 <div className='location'>
                     <img src="./location.svg" alt="Location" className='locationboton' />
                 </div>
@@ -16,7 +26,7 @@ function home() {
                 <img src="Shower.png" alt="weather image" className='firstImagen'/>
             </div> 
         </section>
-        {/* Section number Two */}
+     
         <section className='sectionTwo'>
             <h1 className='number'>15</h1>
             <h3 className='grados'>°C</h3> 
@@ -38,7 +48,8 @@ function home() {
         <section>
 
         </section>
-
+        </>
+) : (<NavBar/>)}
     </div>
   )
 }

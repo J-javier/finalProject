@@ -1,0 +1,29 @@
+.principal{
+    background-color: #1E213A;
+}
+
+.busqueda{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.imag{
+    background-color: #1E213A;
+}
+
+.searching{
+    background-color: #1E213A;
+}
+
+
+
+@media (min-width: 770px){
+    .principal{
+        width: 100%;
+    }
+
+}
+
+
+
