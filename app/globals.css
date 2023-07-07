@@ -1,8 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,600;0,700;1,400;1,600&display=swap');
 
-*{
-    margin: 1.5px 1px;
+*{ 
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #100E1D; 
@@ -10,34 +10,78 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.primero{
+    width: 375px;
+/*     height: 2500px; */
+}
+
+.tercero{
+    margin: 0;
+}
+
+.mainTitle{
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+.botonesGrados{
+    width: 2px;
+}
+
+.botonesGrados span{
+    color: #100E1D;
+    background-color: #100E1D;
+}
+
 
 @media (min-width:770px){
-    body{
+    .raiz{
         display: flex;
         flex-direction: row;
     }
 
     .primero{
         display: flex;
-        flex-wrap: nowrap;
+        flex-direction: column;
+        background-color: transparent;
+        width: 30vw;
+        border: 1px solid white;
     }
-    
-    .segundo{
+
+    .Elsegundo{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        margin: 3rem 5rem;
+        border: 1px solid white;
     }
-    
-    .tercero{
+
+    .mainTitle{
+        margin: 2rem 0 1rem 9.5rem;
+        font-size: 20px;
+    }
+
+    .botonesGrados{
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        justify-content: flex-end;
+        width: 80%;
+        margin: 2rem;
+        gap: 1.5rem;
     }
+
+    .botonesGrados span{
+        color: white;
+        padding: 8px;
+        font-weight: 700;
+        border: 1px solid grey;
+        background-color: grey;
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+    }
+
 }
 
-.mainTitle{
-    font-size: 20px;
-}
+
 
 

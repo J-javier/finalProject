@@ -3,7 +3,7 @@ import React from 'react'
 import "./home.css"
 
 function home() {
-  return (
+  return ( 
     <div className='mainContainer'>
         <section className='sectionOne'>
             <div className='firstSection'>
@@ -26,7 +26,7 @@ function home() {
         </section>
         <section className='sectionFour'>
             <p className='day'>Day</p>
-            
+            <span>.</span>
             <p className='date'>Date </p>
         </section>
         <section className='sectionFive'>

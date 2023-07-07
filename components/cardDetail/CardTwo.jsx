@@ -3,15 +3,15 @@ import "./CardTwo.css"
 
 function CardTwo() {
   return (
-    <> 
+    <>  
         <div className='contenerdorPrincipal'>
             
             {/* First Section */}
-            <section >
+            <section className='firstSectionn'>
                 <p className='subTitle'>Wind Status</p>
                 <div className='medida'>
                     <h1 className='numero'>7</h1>
-                    <h3 className='tipoMedicion'>mph</h3>
+                    <p className='tipoMedicion'>mph</p>
                 </div>
                 <div className='row'>
                     <div className='rowNav'>
@@ -27,7 +27,7 @@ function CardTwo() {
                     <h1 className='numero'>84</h1>
                     <p className='tipoMedicion'>%</p>
                 </div>
-                <section>
+                <section className='fondo'>
                     <div>
                         <div className='numerosdebarra'>
                             <p>0</p>
